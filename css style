@@ -1,0 +1,83 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff; /* White background */
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Header / Cover Page */
+header {
+  background: linear-gradient(to bottom, #ffffff 50%, #8B5E3C 50%);
+  /* White top half, brown bottom half */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #8B5E3C; /* Brown text */
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #333333;
+  max-width: 600px;
+}
+
+/* Navigation */
+nav {
+  background-color: #8B5E3C; /* Brown navigation bar */
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #000000; /* Black footer */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
