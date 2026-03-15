@@ -8,14 +8,18 @@
 /* Body Styling */
 body {
   background-image: url(pictures/homepagecover.png);
+  cover;         /* Resizes imagine to fill the screen */
+  background-position: center;       /keeps the image centered */
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header / Cover Page */
 header {
-  height: 100vh;
+  height: 50vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -29,14 +33,14 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  color: #333333;
+  color: #0d0d0d;
   max-width: 600px;
 }
 
 /* Navigation */
 nav {
-  background-color: #8B5E3C; /* Brown navigation bar */
-  padding: 10px 20px;
+  background-color: #0e0d0d; /* Brown navigation bar */
+  padding: 20px 20px;
 }
 
 nav ul {
