@@ -39,7 +39,7 @@ header p {
 
 /* Navigation */
 nav {
-  background-color: #0e0d0d; /* Brown navigation bar */
+  background-color: #fdfafa; /* white navigation bar */
   padding: 20px 20px;
 }
 
@@ -72,7 +72,7 @@ main {
 
 /* Footer */
 footer {
-  background-color: #000000; /* Black footer */
+  background-color: #6c0de1; /* Black footer */
   color: #ffffff;
   text-align: center;
   padding: 20px;
