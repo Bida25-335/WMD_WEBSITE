@@ -15,8 +15,7 @@ body {
 
 /* Header / Cover Page */
 header {
-  background: linear-gradient(to bottom, #ffffff 50%, #8B5E3C 50%);
-  /* White top half, brown bottom half */
+  background:img="url(pictures/homepagecover.jgp.png)"; 
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +26,7 @@ header {
 
 header h1 {
   font-size: 3rem;
-  color: #8B5E3C; /* Brown text */
+  color: #060606; /* Black text */
   margin-bottom: 20px;
 }
 
