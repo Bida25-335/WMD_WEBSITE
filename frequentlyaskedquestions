@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Dikgomo Ancestral Cover</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/jpg" href="pictures/logo.jpg.png">
+     <link rel="background" type="image/png" href="pictures/homepagecover.png">
+ </head>
+ <body>
+ 
+     <!--Header Section -->
+     <header>
+         <h1>Dikgomo Ancestral Cover</h1>
+        <p>This is the future.</p>
+    </header>
+ 
+    <!-- Navigation -->
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="funeralcover.html">funeral cover</a>
+        <a href="lifecover.html">life cover</a>
+        <a href="claimsprocess.html">claims process</a>
+        <a href="frequentlyaskedquestions.html">frequently asked questions</a>
+        <a href="about.html">about us</a>
+        <a href="contact&support.html">contact & support</a>
+        <a href="footer&legaldisclosures.html">footer & legal disclosures</a>
+    </nav>
+ 
+     <!--Main Content -->
+    <main>
+ 
+         <section>
+            <h2>QUESTIONS </h2>     
+            <P> What is the difference between life and funeral cover? (Life cover is for long-term wealth/debt; Funeral cover is for immediate burial costs). </P>
+            <p> What happens if i miss a premium? This issue depends on the reason but in most cases you can pay if you can, even if you missed the date. But in cases of not paying for more than six months the cover gets cancelled, meaning one has to restart the cover and paying premium from start. </p>
+            <p> Can i cover my parents-in-law? yes usually under the extended family benefits.  </p>
+            <p> Is there a cooling off? yes there is typically for 31 days to cancel after signing.</p>
+         </section>
+    </main>
+ </body>
+ 
+                
+
