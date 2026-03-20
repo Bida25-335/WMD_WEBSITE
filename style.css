@@ -8,8 +8,8 @@
 /* Body Styling */
 body {
   background-image: url(pictures/homepagecover.png);
-  cover;         /* Resizes imagine to fill the screen */
-  background-position: center;       /keeps the image centered */
+  background-size: 100% 100%; /* cover;         /* Resizes imagine to fill the screen */
+  /*background-position: center;       /* keeps the image centered */
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
 header {
   height: 50vh;
   display: flex;
-  flex-direction: row;
+  flex-direction row;
   justify-content: center;
   align-items: center;
   text-align: center;
