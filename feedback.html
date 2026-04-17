@@ -122,20 +122,18 @@
 </head>
 <body>
   <form class="feedback-form" action="submit_feedback.php" method="POST">
-    <h2>Website Feedback Form</h2>
+    <h2> Feedback Form</h2>
+
+    <div class="form-container">
+    <form action="submit_feedback.php" method="POST" autocomplete="off">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" autocomplete="off" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" autocomplete="off" required>
 
     <div class="form-group">
-      <label for="name">Full Name (optional)</label>
-      <input type="text" id="name" name="name">
-    </div>
-
-    <div class="form-group">
-      <label for="email">Email (optional)</label>
-      <input type="email" id="email" name="email">
-    </div>
-
-    <div class="form-group">
-      <label for="experience">How was your experience using our Life & Funeral Cover website?</label>
+      <label for="experience">How was your experience using our website?</label>
       <select id="experience" name="experience" required>
         <option value="">Select an option</option>
         <option value="excellent">Excellent</option>
