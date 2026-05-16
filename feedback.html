@@ -124,15 +124,14 @@
       cursor: pointer;
       font-size: 16px;
     }
-    button: hover {
+    button:hover {
       background: #005fa3;
     }
   </style>
-  <form class="feedback-form" action="submit_feedback.php" method="POST">
+  <form class="feedback-form" action="submit_feedback.php" method="POST" autocomplete="off">
     <h2> Feedback Form</h2>
 
     <div class="form-container">
-    <form action="submit_feedback.php" method="POST" autocomplete="off">
       <label for="name">Full Name</label>
       <input type="text" id="name" name="name" autocomplete="off" required>
 
