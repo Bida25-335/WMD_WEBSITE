@@ -10,8 +10,19 @@
     
     <!-- Your custom CSS -->
     <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/jpg" href="pictures/logo.jpg">
 
-    <link rel="icon" type="image/jpg" href="pictures/logo.jpg">
+  <!-- Background Styling -->
+    <style>
+        body {
+            background-image: url(pictures/homepagecover.png);
+            background-size: cover; /* better than 100% 100% */
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
 </head>
  <body>
  
@@ -58,14 +69,10 @@
             
   <style>
     body {
-       
-      background-image: url(pictures/homepagecover.png);
-      background-size: cover; /* better than 100% 100% */
-      background-position: center;
-      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
       margin: 0;
-      padding: 0;
-      min-height: 100vh;
+      padding: 20px;
     }
     .feedback-form {
       max-width: 600px;
@@ -119,12 +126,10 @@
       cursor: pointer;
       font-size: 16px;
     }
-    button:hover {
+    button: hover {
       background: #005fa3;
     }
   </style>
-</head>
-<body>
   <form class="feedback-form" action="submit_feedback.php" method="POST">
     <h2> Feedback Form</h2>
 
